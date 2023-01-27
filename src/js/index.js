@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import SimpleCounter from "./component/SimpleCounter";
+import SimpleCounter from "./component/SimpleCounter.jsx";
 
 //render your react application
 ReactDOM.render(<SimpleCounter />, document.querySelector("#app"));
